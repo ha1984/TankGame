@@ -1,0 +1,223 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Quelldateien">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Headerdateien">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Ressourcendateien">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Primitives">
+      <UniqueIdentifier>{10bad201-8a6f-451f-b03b-c7a2f720f583}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerdateien\externals">
+      <UniqueIdentifier>{ec5bbfc6-8bfb-4606-86f8-b8fb3c82ef87}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quelldateien\externals">
+      <UniqueIdentifier>{c774c982-18a4-47cd-8e63-f3f4aa8413f2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Mainer.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="MeGlWindow.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="ShapeGenerator.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="etc1_utils.cpp">
+      <Filter>Quelldateien\externals</Filter>
+    </ClCompile>
+    <ClCompile Include="image_DXT.c">
+      <Filter>Quelldateien\externals</Filter>
+    </ClCompile>
+    <ClCompile Include="image_helper.c">
+      <Filter>Quelldateien\externals</Filter>
+    </ClCompile>
+    <ClCompile Include="SOIL2.c">
+      <Filter>Quelldateien\externals</Filter>
+    </ClCompile>
+    <ClCompile Include="tiny_obj_loader.cc">
+      <Filter>Quelldateien\externals</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="Collision.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="Explosion.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="Particle.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="Explosion_moc.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet_moc.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemy.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="MeGlWindow_moc.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="textbox.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="loadCSV.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="MeWidget.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="DebugSlider.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="DebugSlider_moc.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="MeWidget_moc.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MeGlWindow.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="Vertex.h">
+      <Filter>Primitives</Filter>
+    </ClInclude>
+    <ClInclude Include="ShapeData.h">
+      <Filter>Primitives</Filter>
+    </ClInclude>
+    <ClInclude Include="ShapeGenerator.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="etc1_utils.h">
+      <Filter>Headerdateien\externals</Filter>
+    </ClInclude>
+    <ClInclude Include="image_DXT.h">
+      <Filter>Headerdateien\externals</Filter>
+    </ClInclude>
+    <ClInclude Include="image_helper.h">
+      <Filter>Headerdateien\externals</Filter>
+    </ClInclude>
+    <ClInclude Include="jo_jpeg.h">
+      <Filter>Headerdateien\externals</Filter>
+    </ClInclude>
+    <ClInclude Include="pkm_helper.h">
+      <Filter>Headerdateien\externals</Filter>
+    </ClInclude>
+    <ClInclude Include="pvr_helper.h">
+      <Filter>Headerdateien\externals</Filter>
+    </ClInclude>
+    <ClInclude Include="stb_image.h">
+      <Filter>Headerdateien\externals</Filter>
+    </ClInclude>
+    <ClInclude Include="stb_image_write.h">
+      <Filter>Headerdateien\externals</Filter>
+    </ClInclude>
+    <ClInclude Include="stbi_DDS.h">
+      <Filter>Headerdateien\externals</Filter>
+    </ClInclude>
+    <ClInclude Include="stbi_DDS_c.h">
+      <Filter>Headerdateien\externals</Filter>
+    </ClInclude>
+    <ClInclude Include="stbi_ext.h">
+      <Filter>Headerdateien\externals</Filter>
+    </ClInclude>
+    <ClInclude Include="stbi_ext_c.h">
+      <Filter>Headerdateien\externals</Filter>
+    </ClInclude>
+    <ClInclude Include="stbi_pkm.h">
+      <Filter>Headerdateien\externals</Filter>
+    </ClInclude>
+    <ClInclude Include="stbi_pkm_c.h">
+      <Filter>Headerdateien\externals</Filter>
+    </ClInclude>
+    <ClInclude Include="stbi_pvr.h">
+      <Filter>Headerdateien\externals</Filter>
+    </ClInclude>
+    <ClInclude Include="stbi_pvr_c.h">
+      <Filter>Headerdateien\externals</Filter>
+    </ClInclude>
+    <ClInclude Include="SOIL2.h">
+      <Filter>Headerdateien\externals</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="Collision.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="Explosion.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="Particle.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="CameraDirections.h">
+      <Filter>Primitives</Filter>
+    </ClInclude>
+    <ClInclude Include="textbox.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="loadCSV.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="MeWidget.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="DebugSlider.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="VertexShaderCode.glsl" />
+    <None Include="FragmentShaderCode.glsl" />
+    <None Include="waterFragmentShader.glsl">
+      <Filter>Quelldateien</Filter>
+    </None>
+    <None Include="waterVertexShader.glsl">
+      <Filter>Quelldateien</Filter>
+    </None>
+    <None Include="blurVertexShader.glsl">
+      <Filter>Quelldateien</Filter>
+    </None>
+    <None Include="blurFragmentShader.glsl">
+      <Filter>Quelldateien</Filter>
+    </None>
+    <None Include="skyFragmentShader.glsl">
+      <Filter>Quelldateien</Filter>
+    </None>
+    <None Include="skyVertexShader.glsl">
+      <Filter>Quelldateien</Filter>
+    </None>
+    <None Include="textFragmentShader.glsl">
+      <Filter>Quelldateien</Filter>
+    </None>
+    <None Include="textVertexShader.glsl">
+      <Filter>Quelldateien</Filter>
+    </None>
+  </ItemGroup>
+</Project>
